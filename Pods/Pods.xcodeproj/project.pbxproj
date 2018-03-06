@@ -115,7 +115,6 @@
 		3C5A9DAB0512AA0467E75E1EEAB6FDCE /* PFCloud.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607C88B7B6ABAD4EAF7CBF1829E08BD /* PFCloud.m */; };
 		3D0B26AFD363CAF682F1C86C660AFA08 /* PFConfig+Synchronous.h in Headers */ = {isa = PBXBuildFile; fileRef = 2647B09CA5174AC4ECE3DD018CF459DE /* PFConfig+Synchronous.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D95C2C98A3ED567C2FF01640A682B69 /* PFURLSessionJSONDataTaskDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E3055FE3CB804B29A15A88F1489D17BF /* PFURLSessionJSONDataTaskDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3DE8C75B204CB112005DF76B /* instagram_assets in Resources */ = {isa = PBXBuildFile; fileRef = 3DE8C75A204CB111005DF76B /* instagram_assets */; };
 		3DEEC6A1E7F2DD9787DDE3453614CCDA /* PFInstallationIdentifierStore.h in Headers */ = {isa = PBXBuildFile; fileRef = A929EA1ADBB5DA22FB737FFCFD024C67 /* PFInstallationIdentifierStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3E487A6AC1601F7465C2978630AE1575 /* PFRelationState_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9A755DD3EE00F405552E7236640F75 /* PFRelationState_Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		3E808890897A3C413C7881F15F838EF7 /* PFSQLiteDatabaseResult.h in Headers */ = {isa = PBXBuildFile; fileRef = C24E204F4B99D2BBAF026982604F98FE /* PFSQLiteDatabaseResult.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -659,7 +658,6 @@
 		3D832509A40F3B946D5DF472BA276F9B /* PFProductsRequestHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFProductsRequestHandler.h; path = Parse/Parse/Internal/Product/ProductsRequestHandler/PFProductsRequestHandler.h; sourceTree = "<group>"; };
 		3DD4CCFACBCE3AB3792123199A3343BD /* PFCurrentObjectControlling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFCurrentObjectControlling.h; path = Parse/Parse/Internal/Object/CurrentController/PFCurrentObjectControlling.h; sourceTree = "<group>"; };
 		3DE823A789A3F07A6A5846DA30C5806E /* PFPaymentTransactionObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPaymentTransactionObserver.h; path = Parse/Parse/Internal/Purchase/PaymentTransactionObserver/PFPaymentTransactionObserver.h; sourceTree = "<group>"; };
-		3DE8C75A204CB111005DF76B /* instagram_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = instagram_assets; sourceTree = "<group>"; };
 		3E2E5022C23E0784AE54BB48F45EE8A7 /* PFMutableRelationState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFMutableRelationState.h; path = Parse/Parse/Internal/Relation/State/PFMutableRelationState.h; sourceTree = "<group>"; };
 		3F348BD969AEF903E0A0806929D85A92 /* PFRESTQueryCommand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFRESTQueryCommand.h; path = Parse/Parse/Internal/Commands/PFRESTQueryCommand.h; sourceTree = "<group>"; };
 		3FB1A0EBA8208C45535B1986D8C9623E /* PFPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PFPolygon.h; path = Parse/Parse/PFPolygon.h; sourceTree = "<group>"; };
@@ -1174,7 +1172,6 @@
 		29C12681403967070CC67949349481B3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DE8C75A204CB111005DF76B /* instagram_assets */,
 				C3F033E30EA00BD1FFBE3D3E940DA172 /* Pods-insta */,
 				4F0DCF1B790699D2DA58FDFF7ED70EB2 /* Pods-instaTests */,
 				13C895F646FED13D844A8F71BED2BC7F /* Pods-instaUITests */,
@@ -2291,7 +2288,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DE8C75B204CB112005DF76B /* instagram_assets in Resources */,
 				44D42E907EC9C4813C77509C6DF30453 /* Parse.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
