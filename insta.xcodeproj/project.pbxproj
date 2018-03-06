@@ -23,6 +23,7 @@
 		3D053231204C84DC003F70C6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D053230204C84DC003F70C6 /* PhotoCell.swift */; };
 		3DADF33C204E39FA002F5939 /* feed_tab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DADF33B204E39FA002F5939 /* feed_tab@3x.png */; };
 		3DADF33E204E3A1B002F5939 /* profile_tab@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DADF33D204E3A1B002F5939 /* profile_tab@3x.png */; };
+		3DADF340204F014A002F5939 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DADF33F204F014A002F5939 /* DetailViewController.swift */; };
 		4F352FECD0B6BCB0296EE874 /* Pods_instaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B5F08949E977E42A1E6233 /* Pods_instaTests.framework */; };
 		94CC8D5CDD33A7BB09CC44B2 /* Pods_instaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D643242DC31FBBD1BF18AC1 /* Pods_instaUITests.framework */; };
 		D10600905FA10A579AF6F796 /* Pods_insta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FD303351B40187BCEEED759 /* Pods_insta.framework */; };
@@ -71,6 +72,7 @@
 		3D643242DC31FBBD1BF18AC1 /* Pods_instaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DADF33B204E39FA002F5939 /* feed_tab@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "feed_tab@3x.png"; path = "Assets.xcassets/feed_tab@3x.png"; sourceTree = "<group>"; };
 		3DADF33D204E3A1B002F5939 /* profile_tab@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profile_tab@3x.png"; path = "Assets.xcassets/profile_tab@3x.png"; sourceTree = "<group>"; };
+		3DADF33F204F014A002F5939 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		44C71139B223EEB18F5B7313 /* Pods-instaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaTests/Pods-instaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FD303351B40187BCEEED759 /* Pods_insta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_insta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6229B00F5F1B5ADA7252E364 /* Pods-instaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaTests/Pods-instaTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 				3D05322C204B980B003F70C6 /* FeedViewController.swift */,
 				3D05322E204B9B39003F70C6 /* CameraViewController.swift */,
 				3D053230204C84DC003F70C6 /* PhotoCell.swift */,
+				3DADF33F204F014A002F5939 /* DetailViewController.swift */,
 			);
 			path = insta;
 			sourceTree = "<group>";
@@ -498,6 +501,7 @@
 				3D05322B204B75EE003F70C6 /* Post.swift in Sources */,
 				3D0531F9204792E7003F70C6 /* ViewController.swift in Sources */,
 				3D05322F204B9B39003F70C6 /* CameraViewController.swift in Sources */,
+				3DADF340204F014A002F5939 /* DetailViewController.swift in Sources */,
 				3D0531F7204792E7003F70C6 /* AppDelegate.swift in Sources */,
 				3D05322D204B980B003F70C6 /* FeedViewController.swift in Sources */,
 			);

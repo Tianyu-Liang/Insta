@@ -20,6 +20,7 @@ class PhotoCell: UITableViewCell {
     @IBOutlet weak var likeCount: UILabel!
     
     @IBOutlet weak var commentCount: UILabel!
+    var date : String!
     
     var instaPost: PFObject! {
         didSet{

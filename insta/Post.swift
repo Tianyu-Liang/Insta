@@ -15,6 +15,7 @@ class Post: PFObject, PFSubclassing {
     @NSManaged var caption: String
     @NSManaged var likesCount: Int
     @NSManaged var commentsCount: Int
+    @NSManaged var createdDate: String
     
     /* Needed to implement PFSubclassing interface */
     class func parseClassName() -> String {
@@ -42,6 +43,10 @@ class Post: PFObject, PFSubclassing {
         post.caption = caption!
         post.likesCount = 0
         post.commentsCount = 0
+        let formatter : DateFormatter = DateFormatter();
+        formatter.dateFormat = "d/M/yy";
+        let myStr : String = formatter.string(from: NSDate.init(timeIntervalSinceNow: 0) as Date);
+        post.createdDate = myStr
         
         // Save object (following function will save the object in Parse asynchronously)
         post.saveInBackground(block: completion)

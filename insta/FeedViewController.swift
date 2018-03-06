@@ -39,7 +39,11 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell.commentCount.text = "comments :\(comments)"
         // picture
         cell.instaPost = post
-        
+        // date
+        cell.date = post["createdDate"] as? String
+        if(cell.date == nil){
+            cell.date = "No date available"
+        }
         return cell
     }
     
@@ -88,6 +92,21 @@ class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDe
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        let cell = sender as! PhotoCell
+        let detailViewController = segue.destination as! DetailViewController
+        
+        if let indexPath = tableView.indexPath(for: cell)
+        {
+            detailViewController.instaPost = posts[indexPath.row]
+        }
+        
+        
+        
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
 
     /*
     // MARK: - Navigation
